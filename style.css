@@ -1,0 +1,85 @@
+a, a:visited, a:hover, a:active
+{
+    color: inherit;
+    text-decoration: none;
+}
+
+a.button1
+{
+	background-color:purple;
+	flex-grow:1 1;
+	height:100%;
+	width:50%;
+}
+
+a.button2
+{
+	background-color:red;
+	flex-grow:1 1;
+	height:100%;
+	width:50%;
+}
+
+a.button3
+{
+	background-color:green;
+	flex-grow:1 1;
+	height:100%;
+	width:50%;
+}
+
+a.button4
+{
+	background-color:blue;
+	flex-grow:1 1;
+	height:100%;
+	width:50%;
+}
+
+div.buttons
+{
+	display:flex;
+	height:50%;
+	margin:0;
+	padding:0;
+}
+
+div.question
+{
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+h1
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+html,body
+{
+	font-family:\'Franklin Gothic Medium\', \'Arial Narrow\', Arial, sans-serif;
+	font-size:x-large;
+	height:100%;
+	margin:0;
+}
+
+.backButton
+{
+	font-size:50px;
+	padding:0;
+	position:absolute;
+}
+
+.middleButton
+{
+	background-color:#7FFFD4;
+	height:25%;
+	left:50%;
+	position:absolute;
+	top:50%;
+	transform:translate(-50%,-50%);
+	width:25%;
+}

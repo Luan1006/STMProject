@@ -86,8 +86,3 @@ img.middleButton {
   max-width: 100%;
   margin: auto;
 }
-
-.replayButton {
-  background: url(Bilder/Replay.png);
-  width: 25%;
-}
